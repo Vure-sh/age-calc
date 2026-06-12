@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(12, 14, 18);
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-family: 'Great Vibes';
+    color: rgb(235, 220, 200);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#app{
+    width: 75%;
+    max-width: 420px;
+    margin: auto;
+    padding: 30px;
+
+    background-color: rgb(18, 20, 26);
+    border: 1px solid rgb(40, 40, 50);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+
+    text-align: center;
+}
+
+#btn{
+    height: 45px;
+    width: 200px;
+
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(70, 55, 55);
+    color: rgb(240, 230, 225);
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+#btn:hover{
+    transform: translateY(-2px);
+    background-color: rgb(90, 70, 70);
+}
+
+#btn:active{
+    transform: translateY(0px);
+}
+
+.elements{
+    background-color: rgb(25, 27, 34);
+    color: rgb(235, 235, 235);
+    border: 1px solid rgb(45, 45, 55);
+    border-radius: 12px;
+    padding: 12px;
+     margin: 10px;
+    outline: none;
+}
+
+.elements:focus{
+    border-color: rgb(120, 95, 95);
+    box-shadow: 0 0 12px rgba(120, 95, 95, 0.25);
+}
+
+#p{
+    font-size: 1.2rem;
+    color: rgb(220, 205, 190);
+    margin-top: 15px;
+}
