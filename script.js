@@ -1,5 +1,5 @@
 
-// //DOM element
+// //DOM elemen
 const btn = document.querySelector("#btn");
 const inputYear = document.querySelector("#In");
 const result = document.querySelector("#p");
